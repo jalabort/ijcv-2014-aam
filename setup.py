@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 project_name = 'ijcv_2004_aam'
 
-requirements = ['menpo>=0.3.0']
+requirements = ['menpo>=0.3.0',
+                'scikit-image>=0.10.1']
 
 setup(name=project_name,
       version='0.0',
